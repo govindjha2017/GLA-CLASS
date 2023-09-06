@@ -1,0 +1,48 @@
+/* a{
+    text-decoration: none;
+} */
+
+ /* attribute selector */
+
+/* a[href="https://www.facbook.com/"]{
+    color: teal;
+}
+a[href="https://www.instagram.com/"]{
+    color: aqua;
+} */
+
+/* Descendent selector */
+/* 
+div p{
+    color: pink;
+}
+
+div#para p{
+    color: blueviolet;
+}
+p{
+    color: blue;
+} */
+
+/* Child selector */
+/* 
+ul>li{
+    color: red;
+} */
+
+/* ul>div>li{
+    color: blue;
+}
+ul{
+
+} */
+
+/* immediate sibling */
+
+/* li+li{
+    color: brown;
+} */
+
+/* 
+general selector */
+

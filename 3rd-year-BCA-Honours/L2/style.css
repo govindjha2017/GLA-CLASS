@@ -1,0 +1,86 @@
+/* decendent selector
+div p{
+    color: aqua;
+}
+
+p{
+    color: blue;
+}
+
+.para{
+    color: brown;
+}
+
+div.para{
+    color: red;
+}
+
+/* direct child */
+
+/* ul.list>li{
+    color: aqua;
+} */ 
+
+/* immediate sibling */
+
+/* li+li{
+    color: blue;
+} */
+
+/* li#fav-movie+li{
+    color: gold;
+} */
+
+/* general sibling */
+/* li~li{
+    color: blueviolet;
+} */
+
+/* li#fav-movie~li{
+    color: greenyellow;
+} */
+
+/* L = link
+V = visited
+H = hover
+A = active */
+
+nav a:link{
+    color: brown;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color:aqua
+}
+nav a:hover{
+    color: yellow;
+}
+nav a:active{
+    color: green;
+}
+
+
+/* ol li:first-child{
+    color: teal;
+}
+
+ol li:last-child{
+    color: pink;
+} */
+
+/* ol li:nth-child(odd){
+    color: coral;
+} */
+
+/* ol li:nth-child(7){
+    color: coral;
+} */
+
+ol li:nth-child(3n+2){
+    color: coral;
+}
+
+p::first-letter{
+    font-size: 25px;
+}

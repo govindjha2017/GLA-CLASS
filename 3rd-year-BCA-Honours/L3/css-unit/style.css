@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+#kuchhbhi{
+    height: 200px;
+    background-color: lime;
+    width: 100px;
+    color: aqua;
+
+}
+
+#air{
+    background-color: brown;
+    height: 50vh;
+    width: 40vw;
+} */
+
+.parnt{
+    height: 70vh;
+    background-color: pink;
+}
+
+.child{
+    height: 200%;
+    background-color: blue;
+}

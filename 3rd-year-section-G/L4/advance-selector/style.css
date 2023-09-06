@@ -1,0 +1,14 @@
+/* ========= Decendent selector */
+/* div p{
+    color: aqua;
+} */
+
+div#para p{
+    color: red;
+}
+
+/* ========child seletor  */
+
+ul>li{
+    color: green;
+}

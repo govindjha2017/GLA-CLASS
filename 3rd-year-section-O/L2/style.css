@@ -1,0 +1,37 @@
+/* decendent selector */
+
+/* div p{
+    color: aqua;
+}
+p{
+    color: blue;
+} */
+
+/* div#para p{
+    color: brown;
+} */
+
+/* 
+Child selctor */
+
+/* ul>li{
+    color: darkseagreen;
+}
+
+ul>div>li{
+    color: fuchsia;
+} */
+
+/* immediate sibling */
+/* li+li{
+    color: darkviolet;
+} */
+
+/* General sibling */
+/* li~li{
+    color: aqua;
+} */
+
+li#fav-movie~li{
+    color: cadetblue;
+}
