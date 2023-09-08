@@ -1,0 +1,24 @@
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:link{
+    color: brown;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+nav a:active{
+    color: red;
+}
+
+nav a:visited{
+    color: aquamarine;
+}
+
+div p::first-letter{
+    color: chocolate;
+}

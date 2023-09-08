@@ -46,3 +46,6 @@ ul{
 /* 
 general selector */
 
+li~li{
+    color: blue;
+}

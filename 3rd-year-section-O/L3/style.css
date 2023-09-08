@@ -1,0 +1,48 @@
+nav a{
+    text-decoration: none;
+}
+
+nav a:link{
+    color: aqua;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+nav a:visited{
+    color: blueviolet;
+}
+
+nav a:active{
+    color: red;
+}
+
+/* ol li:first-child{
+    color: blue;
+}
+
+ol li:last-child{
+    color: brown;
+} */
+
+/* ol li:nth-child(odd){
+    color: aqua;
+} */
+/* 
+ol li:nth-child(3n+1){
+    color: red;
+} */
+
+ol li:nth-child(3){
+    color: blue;
+}
+
+div p:nth-child(even){
+    color: orange;
+}
+
+div p::first-letter{
+    font-size: 1.5rem;
+    color: blue;
+}
