@@ -1,0 +1,42 @@
+
+
+a[href="https://facebook.com/"]{
+    color: aqua;
+}
+
+*{
+
+}
+
+/* ======= advance selector============= */
+
+/* div p{
+    color: pink;
+}
+
+p.para{
+    color: red;
+} */
+
+/* div.para p{
+    color: brown;
+} */
+
+
+/* child selector */
+/* 
+ul>div>li{
+    color: blueviolet;
+} */
+
+/* 
+immediate sibling */
+
+/* li+li{
+ color: purple;
+} */
+
+li+li+li{
+    color: aqua;
+}
+
