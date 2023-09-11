@@ -1,0 +1,56 @@
+/* ========= Decendent selector */
+/* div p{
+    color: aqua;
+} */
+
+/* div#para p{
+    color: red;
+} */
+
+/* ========child seletor  */
+
+/* ul>li{
+    color: green;
+} */
+
+/* -------------Immeddiate sibling */
+
+/* li+li+li{
+  color: blue;
+} */
+
+/* ul div li+li{
+    color: blueviolet;
+} */
+
+
+/* ==========General sibling */
+
+/* li~li{
+    color: aqua;
+} */
+
+ul div li~li{
+    color: blue;
+}
+
+nav a:link{
+    color: green;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+nav a:active{
+    color: red;
+}
+nav a:visited{
+    color:aqua;
+}
+
+div#para p::first-letter{
+    color: red;
+    font-size: 25px;
+}
