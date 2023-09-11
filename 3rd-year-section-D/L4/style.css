@@ -1,0 +1,76 @@
+
+
+a[href="https://facebook.com/"]{
+    color: aqua;
+}
+
+*{
+
+}
+
+/* ======= advance selector============= */
+/* decedent selector */
+/* div p{
+    color: pink;
+}
+
+p.para{
+    color: red;
+} */
+
+/* div.para p{
+    color: brown;
+} */
+
+
+/* child selector */
+/* 
+ul>div>li{
+    color: blueviolet;
+} */
+
+/* 
+immediate sibling */
+
+/* li+li{
+ color: purple;
+} */
+
+/* li+li{
+    color: aqua;
+} */
+
+/* ul div li+li{
+    color: blueviolet;
+} */
+
+
+/* =========General sibling */
+
+li~li{
+    color: blue;
+}
+
+/* ==========pseudo class */
+
+nav a:link{
+    text-decoration: none;
+    color: green;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+nav a:active{
+    color: red;
+}
+
+nav a:visited{
+    color: brown;
+}
+
+p.para::first-letter{
+    color: chartreuse;
+    font-size: 50px;
+}

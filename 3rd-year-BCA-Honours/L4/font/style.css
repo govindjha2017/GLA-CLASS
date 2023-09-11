@@ -1,0 +1,13 @@
+div p{
+    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    /* font-size: 25px; */
+    font-size: 1.5rem;
+
+    font-style: italic;
+
+    /* font-weight: bolder; */
+    font-weight:  lighter;
+}
