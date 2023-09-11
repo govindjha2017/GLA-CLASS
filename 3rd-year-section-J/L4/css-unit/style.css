@@ -1,0 +1,21 @@
+
+
+/* .parent{
+   height: 181px;
+   background-color: brown;
+   width: 100px;
+} */
+
+.parent{
+    height: 50vh;
+    background-color: aqua;
+    width: 60vw;
+    
+}
+
+.child{
+
+    height: 100%;
+    width: 30vw;
+    background-color: blueviolet;
+}

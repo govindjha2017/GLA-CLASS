@@ -1,0 +1,21 @@
+
+div.container p{
+    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+
+    font-family: cursive;
+/* 
+    font-size: 1rem;
+    font-size:1.5em; */
+  
+    font-size: 30px;
+    font-style: oblique;
+
+    font-weight: bolder;
+
+    /* with em, the unit is relative to the font size of its parent element, while the rem unit is only relative to the root font size of the HTML document. */
+}
+
+div.parent{
+    font-size: 20px;
+}
