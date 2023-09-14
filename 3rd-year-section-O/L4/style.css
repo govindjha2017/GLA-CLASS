@@ -1,13 +1,15 @@
 div.container p{
     border: 2px solid red;
 
-    margin: 10px;
-    margin: 10px 20px 10px 20px;
-    margin: 10px 20px;
+    margin: 10px; 
+    margin: 10px 20px 30px 20px; 
+    /* margin: 10px 20px; */
+    /* width: 30vw;
+    margin: auto; */
 
-    pad
+    
 
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 *{
