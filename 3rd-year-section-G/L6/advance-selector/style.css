@@ -53,4 +53,5 @@ nav a:visited{
 div#para p::first-letter{
     color: red;
     font-size: 25px;
+
 }

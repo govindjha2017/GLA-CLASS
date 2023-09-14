@@ -1,0 +1,21 @@
+div.container{
+
+    /* height: 100px; */
+    background-color: aqua;
+    /* width: 100px; */
+    /* overflow: auto; */
+
+    height: 60vh;
+    width: 50vw;
+}
+
+div.container div.child{
+    height: 40%;
+    background-color: blue;
+    width: 50%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}

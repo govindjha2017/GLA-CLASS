@@ -1,0 +1,16 @@
+div.container p{
+    border: 2px solid red;
+    /* margin: 10px; */
+    /* margin: 20px 15px 10px 30px; */
+    margin: 10px 20px;
+
+    /* padding: 40px; */
+
+    padding: 10px 30px 40px 20px;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;  
+}

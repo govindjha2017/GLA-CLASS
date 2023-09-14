@@ -1,0 +1,27 @@
+
+div.container div.child1{
+ 
+    height: 150px;
+    width: 100px;
+    background-color:  red;
+    border: 5px solid white;
+    float: left;
+}
+
+.child2{
+    height: 100px;
+    width: 100px;
+    border: 5px solid white;
+    background-color: blanchedalmond;
+    float: right;
+}
+
+ .container{
+    border: 2px solid black;
+    
+ }
+
+ .clearfix{
+    clear:  right;
+    display: block;
+ }

@@ -1,0 +1,23 @@
+div#para p{
+    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
+
+    /* font-size: 10px;  */
+    /* default font size 16px */
+
+    font-size: 16px;
+
+    font-style: italic;
+
+    font-weight: bolder;
+
+}
+
+div#para{
+    font-size: 40px;
+}
+
+html{
+    font-size: 20px;
+}

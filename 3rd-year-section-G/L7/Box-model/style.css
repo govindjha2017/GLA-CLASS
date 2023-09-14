@@ -1,0 +1,11 @@
+div p{
+    border: 2px solid red;
+
+    margin: 20px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}

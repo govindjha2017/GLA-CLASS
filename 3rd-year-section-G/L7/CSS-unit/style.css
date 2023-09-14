@@ -1,0 +1,29 @@
+/* div.container{
+   
+    height: 200px;
+    background-color: aqua;
+    width: 200px;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+div.container{
+    background-color: brown;
+    height: 70%;
+    width: 60vw;
+}
+
+/* div.child{
+    height: 80vh;
+    width: 40vw;
+    background-color: blue;
+} */
+
+div.child{
+    background-color: green;
+    height: 100%;
+    width: 40%;
+}

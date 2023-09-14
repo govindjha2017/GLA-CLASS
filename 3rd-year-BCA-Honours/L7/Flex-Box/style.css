@@ -1,0 +1,41 @@
+
+div.container div{
+    height: 100px;
+    width: 100px;
+}
+
+#child1{
+    background-color: aqua;
+}
+#child2{
+    background-color: blue;
+}
+
+#child3{
+    background-color: blueviolet;
+}
+
+#child4{
+    background-color: chartreuse;
+}
+
+#child5{
+    background-color: darkgrey;
+}
+
+div.container{
+    display: flex;
+    /* flex-direction: column-reverse; */
+
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    justify-content: flex-end;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
