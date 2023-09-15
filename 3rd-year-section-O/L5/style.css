@@ -1,0 +1,24 @@
+div.container div.child1{
+
+    height: 50px;
+    width: 100px;
+    background-color: aqua;
+    float: left;
+}
+
+div.container div.child2{
+    height: 150px;
+    width: 100px;
+    background-color: blue;
+    float: right;
+}
+
+div.container{
+    border: 2px solid red;
+}
+
+div.clearfix{
+    /* clear: both; */
+    clear: left;
+    /* clear: right; */
+}

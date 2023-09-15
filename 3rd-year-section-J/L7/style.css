@@ -1,0 +1,35 @@
+.child{
+    height: 100px;
+    width: 100px;
+    border: 2px solid greenyellow;
+    float: left;
+}
+/* #child3{
+    position: relative;
+    top: 200px;
+    left: 40px;
+} */
+
+/* #child2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+
+#child4{
+   position: fixed;
+   bottom: 0;
+   right: 0;
+}
+
+#child3{
+     margin-top: 60%;
+     position: sticky;
+     top: 30px;
+}
+.container{
+    border: 2px solid red;
+    height: 5000px;
+    width: 70vw;
+    position: relative;
+}

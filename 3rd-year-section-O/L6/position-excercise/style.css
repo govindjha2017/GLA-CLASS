@@ -1,0 +1,14 @@
+p{
+    /* border: 2px solid red; */
+    /* width: 100px; */
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    position: sticky;
+    top: 0;
+    background-color: chartreuse;
+}
