@@ -1,0 +1,59 @@
+
+div.container div{
+    height: 100px;
+    width: 100px;
+}
+
+#child1{
+    background-color: aqua;
+    
+}
+#child2{
+    background-color: blue;
+    /* height: 150px; */
+}
+
+#child3{
+    background-color: blueviolet;
+    /* margin-right: 25px; */
+    /* padding: 20px; */
+}
+
+#child4{
+    background-color: chartreuse;
+}
+
+#child5{
+    background-color: darkgrey;
+}
+
+div.container{
+     display: flex;
+    /* flex-direction: column-reverse; */
+
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* justify-content: flex-end; */
+
+    /* height: 90vh; */
+    background-color: gold;
+
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
+    /* gap: 15px; */
+    gap: 5px 20px;
+    /* row-gap: ; */
+    /* column-gap: 50px; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}

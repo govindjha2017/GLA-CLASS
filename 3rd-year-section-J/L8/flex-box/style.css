@@ -1,0 +1,11 @@
+.item{
+    height: 100px;
+    width: 100px;
+    /* background-color: teal; */
+    border: 2px solid teal;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
