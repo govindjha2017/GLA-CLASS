@@ -1,0 +1,26 @@
+.item{
+    /* height: 100px;
+    width: 100px; */
+    border: 2px solid black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px 110px;
+    /* grid-template-columns: repeat(5,110px); */
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    background-color: lightgray;
+}
+
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#item2{
+    grid-column: 3/6;
+    grid-row: 1/4;
+}

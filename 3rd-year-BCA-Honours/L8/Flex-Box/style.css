@@ -11,16 +11,20 @@ div.container div{
 #child2{
     background-color: blue;
     /* height: 150px; */
+    flex-shrink: 2;
 }
 
 #child3{
     background-color: blueviolet;
     /* margin-right: 25px; */
     /* padding: 20px; */
+    flex-grow: 2;
+    align-self: center;
 }
 
 #child4{
     background-color: chartreuse;
+    flex-grow: 3;
 }
 
 #child5{
@@ -38,7 +42,7 @@ div.container{
 
     /* justify-content: flex-end; */
 
-    /* height: 90vh; */
+    height: 90vh;
     background-color: gold;
 
     /* align-items: flex-end; */
@@ -46,7 +50,7 @@ div.container{
     /* align-items: stretch; */
     /* align-items: baseline; */
     /* flex-wrap: wrap-reverse; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* gap: 15px; */
     gap: 5px 20px;
     /* row-gap: ; */
