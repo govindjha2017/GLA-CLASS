@@ -6,19 +6,27 @@
 }
 .item1{
     background-color: aqua;
+    order: 1;
 }
 .item2{
     background-color: blue;
+    /* flex-shrink: 2; */
 }
 .item3{
     background-color: brown;
     /* padding: 20px; */
+    flex-grow: 2;
+    align-self: center;
 }
 .item4{
     background-color: blueviolet;
+    order: -1;
+    /* flex-shrink: 3; */
+    flex-grow: 3;
 }
 .item5{
     background-color: chartreuse;
+    order: -2;
 }
 .container{
     display: flex;
@@ -48,9 +56,9 @@
     row-gap: 30px;
     gap: 40px; */
 
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
     /* align-content: center;*/
-    align-items: center;
+    /* align-items: center; */
     
 } 
