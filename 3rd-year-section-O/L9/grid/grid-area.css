@@ -1,0 +1,35 @@
+.item1{
+    background-color: aqua;
+    grid-area: i1;
+}
+.item2{
+    background-color: green;
+    grid-area: i2;
+}
+.item3{
+    background-color: yellow;
+    grid-area: i3;
+}
+.item4{
+    background-color: blue;
+    grid-area: i4;
+}
+.item5{
+    background-color: brown;
+    grid-area: i5;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    /* grid-template-rows: 100px 100px 100px 100px 100px 100px; */
+    grid-template-rows: repeat(6,60px);
+
+    grid-template-areas: 
+    "i1 i1 i2 i2 i3"
+    "i1 i1 i2 i2 i3"
+    "i4 i4 i2 i2 i3"
+    "i5 i5 i5 i5 i3"
+    "i5 i5 i5 i5 i3"
+    "i5 i5 i5 i5 i3";
+}

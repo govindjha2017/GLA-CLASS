@@ -1,0 +1,32 @@
+.item1{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item2{
+    background-color: yellow;
+}
+.item3{
+    background-color: greenyellow;
+    grid-column: 3/5;
+    grid-row: 1/4;
+}
+.item4{
+    background-color: blueviolet;
+}
+.item5{
+    background-color: aqua;
+}
+.item6{
+    background-color: teal;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    /* grid-template-rows: 50px 50px 50px 50px 50px; */
+    grid-template-rows: repeat(5,50px);
+
+}
