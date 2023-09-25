@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    width: 90vw;
+    /* grid-template-columns: repeat(5,100px); */
+    grid-template-columns: 1fr 1fr 1fr 1fr 5fr;
+    /* grid-template-rows: 50px 50px 50px 50px 50px; */
+    grid-template-rows: repeat(5,50px);
+
+    grid-template-areas: 
+    "i1 i1 i3 i3 i5"
+    "i1 i1 i3 i3 i5"
+    "i6 i6 i3 i3 i5"
+    "i6 i6 i2 i2 i2"
+    "i4 i4 i4 i4 i4";
+}
+
+.item1{
+    background-color: red;
+    grid-area: i1;
+}
+.item2{
+    background-color: yellow;
+    grid-area: i2;
+}
+.item3{
+    background-color: greenyellow;
+    grid-area: i3;
+}
+.item4{
+    background-color: blueviolet;
+    grid-area: i4;
+}
+.item5{
+    background-color: aqua;
+    grid-area: i5;
+}
+.item6{
+    background-color: teal;
+    grid-area: i6;
+}
