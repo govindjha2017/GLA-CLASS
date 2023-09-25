@@ -1,0 +1,40 @@
+.navbar{
+    background-color: #F2BF11;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.links{
+    margin-right: 75px;
+}
+
+div.links a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: ;
+}
+
+.logo{
+  margin-left: 75px;
+}
+.logo img{
+    height: 45px;
+}
+
+#spcl-link{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 40px;
+}
