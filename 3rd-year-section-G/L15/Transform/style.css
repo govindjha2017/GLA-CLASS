@@ -1,0 +1,12 @@
+.container{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+     margin: 100px auto;
+     /* box-shadow: 10px 10px 5px black, -10px -10px 10px blue; */
+     box-shadow: 10px 10px 5px black;
+
+     /* transform: rotateX(45deg); */
+     /* transform: rotateY(30deg); */
+     transform: rotateZ(360deg);
+}

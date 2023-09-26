@@ -1,0 +1,40 @@
+.navbar{
+    height: 75px;
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.logo{
+    margin-left: 70px;
+}
+.logo img{
+    height: 45px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.links{
+    margin-right: 70px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    margin-right: 17px;
+}
+
+#spcl-link{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.main{
+    height: 455px;
+    background-color:#ffc017 ;
+}
