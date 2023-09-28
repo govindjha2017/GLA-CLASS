@@ -8,5 +8,15 @@
 
      /* transform: rotateX(45deg); */
      /* transform: rotateY(30deg); */
-     transform: rotateZ(360deg);
+     /* transform: rotateZ(30deg); */
+     transition-duration: 1s;
+    
+}
+
+.container:hover{
+    /* transform: translatez(100px); */
+    /* transform: scale(1.5); */
+    /* transition-delay: 5s; */
+    /* transform: skewy(50deg); */
+   
 }

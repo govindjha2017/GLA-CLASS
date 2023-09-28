@@ -1,0 +1,73 @@
+.container{
+    height: 150px;
+    width: 150px;
+    background-color: purple;
+    position: absolute;
+    /* animation-name: anime; */
+    animation-name: changepos;
+    animation-duration: 8s;
+    /* animation-iteration-count: infinite; */
+    /* animation-fill-mode: forwards; */
+    /* animation-direction: alternate-reverse; */
+
+    /* animation-timing-function: ease-in-out; */
+
+    cubic-bezier(0.08, 0.82, 1, 2.19)
+}
+
+@keyframes changepos {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 0px;
+        left: 400px;
+        background-color: brown;
+    }
+    50%{
+        top: 400px;
+        left: 400px;
+        background-color: cadetblue;
+    }
+    75%{
+        top: 400px;
+        left: 0px;
+        background-color: chartreuse;
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+
+
+
+@keyframes anime {
+    /* from{
+         top: 0px;
+         left: 0px;
+    }
+
+    to{
+        top: 200px;
+        left: 200px;
+        transform: rotateZ(135deg);
+        background-color: chartreuse;
+        border-radius: 50%;
+    } */
+
+    0%{
+        top: 0px;
+        left: 0px;
+   }
+
+   100%{
+       top: 200px;
+       left: 200px;
+       transform: rotateZ(135deg);
+       background-color: chartreuse;
+       border-radius: 50%;
+   }
+}

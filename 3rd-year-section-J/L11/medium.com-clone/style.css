@@ -38,3 +38,36 @@ div.links a{
     padding-right: 20px;
     border-radius: 40px;
 }
+
+.main{
+    height: 448px;
+    background-color: #F2BF11;
+    overflow: auto;
+}
+
+.main-content{
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+.main-content h1{
+    font-size: 106px;
+}
+
+.main-content p{
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.main-content a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 40px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.5rem;
+}

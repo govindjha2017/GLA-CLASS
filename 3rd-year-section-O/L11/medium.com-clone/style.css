@@ -1,0 +1,32 @@
+.navbar{
+    height: 75px;
+    background-color: #F2BF11;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 448px;
+    background-color: #F2BF11;
+    overflow: auto;
+}
+
+.main-content{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.main-content h1{
+    font-size: 106px;
+}
+
+.main-content p{
+    font-size: 24px;
+}

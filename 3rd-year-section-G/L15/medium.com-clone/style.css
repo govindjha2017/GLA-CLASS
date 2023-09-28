@@ -97,3 +97,22 @@
     color: #F2F2F2;
     font-size: 32px;
 }
+
+.bottom-content{
+    height: 1000px;
+    background-color: aqua;
+    width: 60vw;
+}
+
+.discover{
+    height: 300px;
+    background-color: blue;
+    width: 30vw;
+    position: sticky;
+    top: 76px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}

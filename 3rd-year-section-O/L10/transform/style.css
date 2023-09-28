@@ -1,0 +1,28 @@
+.container{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 50px auto;
+    box-shadow: -10px -10px 5px black, 10px 10px 5px black;
+
+    /* transform: rotateX(10deg); */
+    /* transform: rotatey(45deg); */
+
+    /* transform: rotateZ(45deg); */
+    /* transform: rotate(45deg); */
+    /* transition-duration: 2s; */
+    
+    /* transition-delay: 2s; */
+}
+
+.container:hover{
+    /* background-color: aqua; */
+    /* transform: translatey(-50px); */
+    /* transform: scaleX(1.5); */
+    /* transform: scaley(1.5); */
+    /* transform: scale(1.5); */
+  
+    /* transition-delay: 2s; */
+    transform: skewX(30deg);
+
+}

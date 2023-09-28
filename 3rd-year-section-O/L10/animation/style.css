@@ -1,0 +1,28 @@
+.container{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    position: absolute;
+    animation-name: anime;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes anime {
+    from{
+          top: 0px;
+          left: 0px;
+    }
+
+    to{
+        top: 250px;
+        left: 250px;
+        background-color: blueviolet;
+        border-radius: 50%;
+    }
+    
+}
