@@ -1,0 +1,25 @@
+.container{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: aqua;
+     margin: 100px auto;
+    /*box-shadow: -10px -10px 10px black, 10px 10px 10px black; */
+    /* transform: rotateX(60deg); */
+    /* transform: rotateY(45deg); */
+    /* transform: rotateZ(45deg); */
+    /* transform: translateX(100px); */
+    /* transform: translatey(-50px); */
+    /* transform: translateZ(-100px); */
+    transition-duration: 2s;
+    /* transition-delay: 2s; */
+}
+
+.container:hover{
+    /* background-color: brown; */
+    /* transform: rotate(45deg); */
+    /* transform: scalex(2.5); */
+    /* transform: scale(1.5); */
+    transform: skewX(45deg);
+
+}
