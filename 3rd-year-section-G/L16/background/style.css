@@ -1,0 +1,12 @@
+.container{
+    height: 90vh;
+    width: 90vw;
+    border: 2px solid red;
+    /* background-color: aqua; */
+    /* background-image: url('https://m.cricbuzz.com/a/img/v1/192x192/i1/c332891/virat-kohli.jpg'); */
+    background-image:url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg');
+    /* background-repeat: no-repeat; */
+    /* background-size: 80vw 500px; */
+    /* background-size: cover;
+    background-position: 00px -80px; */
+}
