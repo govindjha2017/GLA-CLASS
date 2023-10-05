@@ -1,0 +1,18 @@
+.container{
+    border: 2px solid red;
+    font-size: 3rem;
+    text-align: center;
+    display: none;
+}
+
+@media (max-width:300px){
+    .container1{
+        display: block;
+    }
+}
+
+@media (max-width:600px) and (min-width:301px){
+    .container2{
+        display: block;
+    }
+}

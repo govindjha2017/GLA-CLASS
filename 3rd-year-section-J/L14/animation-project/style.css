@@ -26,7 +26,9 @@
     position: absolute;
     left: 300px;
     bottom: 100px;
-    animation: rocketmove 2s ease-in-out 3;
+    animation: rocketmove 2s ease-in-out 3,
+               rocketrotate 1s ease-in-out 7.5s forwards,
+                launch 2s ease-in-out 10s forwards;
 }
 
 @keyframes rocketmove{
@@ -35,6 +37,18 @@
     }
     100%{
         bottom: 100px;
+    }
+}
+
+@keyframes rocketrotate{
+    100%{
+        transform: rotateZ(-45deg);
+    }
+}
+
+@keyframes launch{
+    100%{
+        bottom: 1000px;
     }
 }
 
@@ -47,4 +61,21 @@
     width: 100px;
     position: absolute;
     bottom: 250px;
+    left: -200px ;
+    animation: codymove 4s ease-in-out 2s forwards,
+               codyinrocket 1s ease-in-out 6.5s forwards;
+}
+
+@keyframes codymove{
+    100%{
+        left: 250px;
+    }
+}
+
+@keyframes codyinrocket{
+    100%{
+        left: 425px;
+        transform: scale(0);
+        bottom: 180px;
+    }
 }
