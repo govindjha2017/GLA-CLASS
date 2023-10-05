@@ -1,0 +1,12 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+
+    transition-delay: 1s;
+}
+
+.container:hover{
+    
+    transform: translateX(400px);
+}
