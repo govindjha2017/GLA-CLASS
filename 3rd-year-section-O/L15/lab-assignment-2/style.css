@@ -15,7 +15,9 @@
     text-decoration: none;
     margin-right: 40px;
 }
-
+.navbar a:hover{
+    background-color: wheat;
+}
 #spcl{
     margin-left: 20px;
 }
