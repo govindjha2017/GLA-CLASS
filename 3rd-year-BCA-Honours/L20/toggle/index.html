@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            margin: auto;
+        }
+        .one{
+            border-radius: 50%;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+
+    <button>Click ME</button>
+
+    <script>
+    const div = document.querySelector('div');
+    const btn = document.querySelector('button');
+
+    btn.addEventListener('click',()=>{
+        div.classList.toggle('one');
+    })
+    </script>
+
+    <!-- <script src="./index.js"></script> -->
+</body>
+</html>

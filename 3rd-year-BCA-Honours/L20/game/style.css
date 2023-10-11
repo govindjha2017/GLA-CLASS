@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.one{
+    width: 10vw;
+    height: 8vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: chartreuse; */
+}
+
+.three{
+    background-color: black;
+    color: white;
+}
+.four{
+    background-color: white;
+}
+
+.row{
+    display: flex;
+}
+
+.btn{
+    background-color: blue;
+    border: 2px solid red;
+    display: block;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.el{
+    height: 50%;
+    width: 50%;
+    display: inline;
+    background-color: red;
+}
+.reset{
+    background-color: greenyellow;
+    display: block;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
