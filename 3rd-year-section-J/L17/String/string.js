@@ -8,7 +8,7 @@ var a= `hello`;
 // console.log(p);
 // console.log(q);
 
-// var a = str.replace('is','IS');
+// var a = str.replace('is','ISff');
 // var b = str.replaceAll('is','IS');
 
 // console.log(b);

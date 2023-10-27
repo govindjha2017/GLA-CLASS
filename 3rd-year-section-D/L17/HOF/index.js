@@ -1,0 +1,18 @@
+var a=20;
+// function fun(){
+
+// }
+
+function outer(){
+    var x=40;
+    function inner(){
+        var a=30;
+        console.log(a);
+        x++;
+        console.log(x);
+    }
+    return inner;
+}
+
+var p =outer();
+p();
