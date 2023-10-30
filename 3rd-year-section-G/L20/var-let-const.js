@@ -14,6 +14,9 @@ const p= "hello coder!";
 
 // p="hfdskjjk"  // error
 
+
+//block scope (let and const)
+//function scope(var)
 {
     var b=30;
     let c=40;

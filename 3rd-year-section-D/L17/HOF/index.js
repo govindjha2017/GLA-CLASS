@@ -1,4 +1,5 @@
 var a=20;
+var x=50
 // function fun(){
 
 // }
@@ -9,7 +10,7 @@ function outer(){
         var a=30;
         console.log(a);
         x++;
-        console.log(x);
+        console.log(x);  //===
     }
     return inner;
 }
