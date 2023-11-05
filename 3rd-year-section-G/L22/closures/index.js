@@ -10,8 +10,9 @@ function outer(){
 }
 
 var fun1 = outer();
-var x="hello";
 var fun2 = outer();
+
 fun1();
-
-
+fun1();
+fun2();
+fun1();
