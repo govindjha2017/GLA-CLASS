@@ -7,6 +7,7 @@ let arr = [
 
 // // op//  [nishant jha, donald trup ,narendra modi, depika padukone]
 
-// HW
-
- 
+ let op = arr.map((item)=>{
+     return item.firstName+" "+item.lastName
+ })
+ console.log(op);

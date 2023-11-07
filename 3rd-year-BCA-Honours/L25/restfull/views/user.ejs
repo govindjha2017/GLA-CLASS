@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            border:  2px solid green;
+        }
+        #new{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <a id="new" href="/user/new">Add new user</a>
+    <% for(let user of users){ %>
+        <div class="box">
+            <h1><%=user.username %></h1>
+            <p><%=user.age %></p>
+            <p><%=user.address %></p>
+        </div>
+   <% } %>
+</body>
+</html>
