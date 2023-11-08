@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/users/<%=user.id%>?_method=PATCH" method="POST">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" value="<%=user.username%>">
+        <br><br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" value="<%=user.password%>">
+        <br><br>
+        <label for="age">age</label>
+        <input type="number" name="age" id="age" value="<%=user.age%>">
+        <br><br>
+        <label for="address">address</label>
+        <input type="text" name="address" id="address" value="<%=user.address%>">
+        <br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

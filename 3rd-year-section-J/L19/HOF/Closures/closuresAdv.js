@@ -12,12 +12,12 @@ function outer(){
     }
     return inner;
 }
-var fun1 = outer();
-var fun2 = outer();
-var x= fun1();
-let y = fun2();
+var fun = outer();
+var x= fun();
+let y = fun();
 x();
 x();
 x();
 y();
 y();
+x();

@@ -9,6 +9,5 @@ function outer(){
     inner();
   var q=2;
 }
-
 outer();
 var p=1;

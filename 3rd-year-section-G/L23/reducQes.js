@@ -6,3 +6,15 @@ let arr = [
 ];
 
 // op = {25:2,75:1,66:1}
+
+let op = arr.reduce((acc,item)=>{
+    if(acc[item.age]){
+        acc[item.age]++;
+    }
+    else{
+        acc[item.age]=1;
+    }
+    return acc;
+},{})
+
+console.log(op);
