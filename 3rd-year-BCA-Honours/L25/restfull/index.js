@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const methodOverride = require('method-override');
-const users = require('./data/usersData')
+const users = require('./data/usersData');
 
 app.set('view engine','ejs');
 app.set('views',path.join(__dirname,'views'));
