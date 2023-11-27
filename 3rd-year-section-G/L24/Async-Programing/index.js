@@ -11,3 +11,9 @@ setTimeout(()=>{
 // },2000)
 
 console.log('last');
+
+// setTimeout(()=>{
+//    console.log('hello');
+// },0)
+
+// console.log('hii');
