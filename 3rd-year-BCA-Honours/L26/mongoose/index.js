@@ -20,8 +20,47 @@ const User = mongoose.model('User',userSchema);
 // create
 
 User.create({
-    name:'rahul',
-    age:45,
-    email:'rahul@gmail.com',
-    contact:432657687
+    name:'Depika padukone',
+    age:37,
+    email:'depika@gmail.com',
+    contact:787654678
 }).then(()=>console.log('document created!!'))
+
+//read
+
+// User.find({})
+//     .then((data)=>{
+//         console.log(data);
+//     })
+
+// async function fetchdata(){
+//    let data = await User.findOne({name:'rahul',age:35});
+//    console.log(data);
+// }
+
+// fetchdata();
+
+//update
+
+// User.updateOne({name:'rahul'},{age:67,email:'rahul@yahoo.com'})
+//     .then((x)=>{
+//         console.log(x);
+//     })
+
+// Delete
+
+// User.deleteOne({name:'ajay'})
+//     .then((x)=>{
+//         console.log(x);
+//     })
+//     .catch((x)=>{
+//         console.log(x);
+//     })
+
+// User.deleteMany({})
+//     .then((x)=>{
+//         console.log(x);
+//     })
+//     .catch((x)=>{
+//         console.log(x);
+//     })
