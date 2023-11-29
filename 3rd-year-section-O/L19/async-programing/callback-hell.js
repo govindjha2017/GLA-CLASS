@@ -15,7 +15,6 @@ function compressedFile(file,uploadFile){
     },2000);
 }
 
-
 //  callback-hell
 downloadFile('facebook.com/profile.jpg',(file)=>{
     console.log('file downloaded sucessfully as',file);
