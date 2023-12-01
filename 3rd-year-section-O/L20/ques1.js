@@ -16,10 +16,9 @@ console.log('start');
 async function handlePromise(){
     console.log('Hello World');
     let data1 = await fun1();
-    let data2 = await fun2();
     console.log(data1);
-
-    console.log('console after resolved');
+     console.log('console after resolved');
+     let data2 = await fun2();
     console.log(data2);
 }
 handlePromise();
