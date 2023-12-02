@@ -41,3 +41,29 @@ for(let i of a){
 }
 
 document.querySelectorAll('li')[2].innerText="kgf"
+
+///////////////////////////////////////////
+//// setAttriute getAttribute removeAttribute
+// const img = document.querySelector('img');
+// // img.style.width='300px'
+// img.setAttribute('class','one')
+// img.setAttribute('class','two one')
+// // console.log(img.getAttribute('class'));
+// let xyz = document.querySelectorAll('p')[0];
+// xyz.setAttribute('id','para')
+
+// xyz.removeAttribute('id');
+
+
+// classlist  : add(),remove(),contains(),toggle();
+const img = document.querySelector('img');
+
+img.classList.add('one');
+img.classList.add('two');
+img.classList.remove('two');
+console.log(img.classList.contains('two'));
+
+img.classList.toggle('two');
+img.classList.toggle('two');
+img.classList.toggle('two');
+img.classList.toggle('two');
