@@ -50,3 +50,13 @@ li5.innerText='bhopal';
 // newul.append(li5);
 newul.append(li1,li2,li3,li4,li5)
 newDiv.append(newul);
+
+const x = document.querySelectorAll('li')[2];
+x.style.color='red';
+x.remove();
+
+const y = document.querySelector('ul');
+console.log(y);
+
+let z= y.children[3];
+y.removeChild(z);

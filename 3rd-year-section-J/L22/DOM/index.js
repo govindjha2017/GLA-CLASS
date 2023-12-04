@@ -31,5 +31,16 @@ img.setAttribute('src','https://images.unsplash.com/photo-1682687220975-7b2df674
 img.setAttribute('class','one');
 
 const spcl = document.querySelector('p');
-spcl.setAttribute('id','spcl')
-spcl.setAttribute('x',"hello")
+spcl.setAttribute('id','spcl');
+spcl.setAttribute('x',"hello");
+
+const para1 = document.querySelector('#para');
+para1.removeAttribute('id');
+
+const div= document.querySelector('div');
+
+div.setAttribute('class','spcl-div xyz');
+
+console.log(div.getAttribute('class'));
+
+div.removeAttribute('class');
