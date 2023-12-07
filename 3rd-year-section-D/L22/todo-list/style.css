@@ -1,0 +1,26 @@
+.container{
+    border: 2px solid black;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    height: 30px;
+}
+
+.A{
+    display: flex;
+}
+
+.check{
+    color: green;
+    text-decoration: line-through;
+}
+
+.up-arrow:hover, .down-arrow:hover, .bin:hover, #btn:hover{
+    cursor: pointer;
+}

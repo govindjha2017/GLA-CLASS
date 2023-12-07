@@ -1,0 +1,17 @@
+.container{
+    border: 2px solid black;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    height: 30px;
+}
+.A{
+    display: flex;
+}

@@ -35,6 +35,7 @@ const inp = document.querySelector('input');
 
 inp.addEventListener('paste',(e)=>{
     //   e.target.innerText=' ';
+    e.preventDefault
     e.target.value=""
       window.alert('cheating karta hai')
 })
